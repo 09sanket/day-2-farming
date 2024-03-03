@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+    .showcase-area {
+        height: 60vh;
+    }
+    .showcase-container {
+        font-size: 1.3rem;
+    }
+    .main-title {
+        font-size: 3rem;
+    }
+}

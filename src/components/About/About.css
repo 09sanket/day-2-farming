@@ -1,0 +1,56 @@
+.about-section {
+    padding: 50px 0;
+  /* text-align: center; */
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-text {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .about-text p {
+    font-size: 1.6rem;
+    line-height: 1.8;
+  }
+  
+  .about-img {
+    flex: 1;
+  }
+  
+  .about-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .about-heading {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .about-heading h1 {
+    font-size: 66px;
+    font-weight: bolder;
+    color: chocolate;
+    background-color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .about-heading h1:hover {
+    background-color: #ddd;
+  }
+  
+
+  @media (max-width: 768px) {
+    .about-img {
+        margin-bottom: 2rem;
+    }
+}
